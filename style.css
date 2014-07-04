@@ -1,0 +1,140 @@
+
+
+/*need to apply a font face*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	margin:0;
+	min-width:600px;
+}
+
+#contact{
+	margin:auto;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+
+h1{
+	font-size:50px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	-webkit-margin-before:0px;
+	-webkit-margin-after:0px;
+	margin-top:20px;
+	margin-bottom:15px;
+	color:#689a95;
+}
+
+
+
+
+h2{
+	font-size:18px;
+	width:550px;
+	height:22px;
+	color:#689a95;
+	font-family:sans-serif;
+	
+	/*figure out how to apply image as top border*/
+  
+		  -moz-border-image:url("images/divider.png") 30 30 stretch; /* Old firefox */
+		  -webkit-border-image:url("images/divider.png") 30 30 stretch; /* Safari */
+		  -o-border-image:url("images/divider.png") 30 30 stretch; /* Opera */
+		  border-image:url("images/divider.png") 30 30 stretch;
+		  
+		  border-image-width:5px;
+		  border-image-outset:5px;
+		  
+	padding:10px;
+	text-align:center;
+	clear:both;
+	margin:auto;
+	}
+	
+#resume_info{
+	width:500px;
+	margin:auto;
+	}
+	
+.date{
+	float:left;
+	margin-right:35px;
+	text-align:right;
+	font-style:italic;
+	font-size:14px;
+	width:125px;
+	
+}
+
+.info{
+	float:left;
+	width:310px;
+}
+
+.skills{
+	float:left;
+	margin-right:30px;
+}
+
+.skills ul{
+	list-style:none;
+	-webkit-padding-start: 0px;
+}
+
+#icon_set{
+	margin-bottom:80px;
+	width:210px;
+	margin:auto;
+	height:40px;
+	
+}
+
+#icon_set ul{
+	list-style:none;
+	-webkit-padding-start: 0px;
+	-webkit-margin-after:0px;
+
+}
+
+#icon_set ul li {
+	list-style:none;
+	display:inline-block;
+	padding-right:10px;
+}
+
+
+
+footer{
+	background-image:url(images/footer.png);
+	height:50px;
+	margin:auto;
+	clear:both;
+	width:100%;
+	/*figure out how to get rid of white space around footer*/
+}
+
+
+#banner{
+	margin-bottom:10px;
+}
+
+
+.highlight_title{
+	color:#fbaa58;
+}
+
+.highlight{
+	color:#689a95;
+}
