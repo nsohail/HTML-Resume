@@ -1,4 +1,6 @@
-
+img{
+	width: 35px;
+}
 
 body{
 	margin:0;
@@ -8,38 +10,54 @@ body{
 #contact{
 	margin:auto;
 	text-align:center;
-	margin-bottom:50px;
+	margin-bottom:20px;
+	padding-top: 20px;
+	background-color: #B8CFC7;
+	height:165px;
 }
 
 
 h1{
-	font-size:50px;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:40px;
+	font-family: 'Josefin Sans', sans-serif;
 	-webkit-margin-before:0px;
 	-webkit-margin-after:0px;
 	margin-top:20px;
-	margin-bottom:15px;
-	color:#689a95;
+	margin-bottom:5px;
+	color:white;
 }
 
 
 
 
 h2{
-	font-size:18px;
+	font-size:26px;
 	width:550px;
 	color:#689a95;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Bitter', serif;
 	font-weight: 700;
 	padding:10px;
 	text-align:center;
 	clear:both;
 	margin:auto;
+	letter-spacing: 2px;
+}
+
+.color{
+	font-family: 'Bitter', serif;
+	font-weight: 600;
+	color: #BCCECC;
+
 }
 	
 #resume_info{
-	width:515px;
+	width:610px;
 	margin:auto;
+}
+
+#skills_info{
+	margin: auto;
+	width: 590px;
 }
 	
 .date{
@@ -47,7 +65,7 @@ h2{
 	margin-right:35px;
 	text-align:right;
 	font-size:14px;
-	width:125px;
+	width:90px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	padding-top: 3px;
@@ -56,42 +74,44 @@ h2{
 
 .info{
 	float:left;
-	width:310px;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 400;
+	width:450px;
+	font-family: 'Signika', sans-serif;
+	font-weight: 300;
 	line-height: 20px;
+	text-align: justify;
 }
 
 .skills{
 	float:left;
-	margin-right:25px;
+	margin-right:110px;
 	width:330px;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 400;
+	font-family: 'Signika', sans-serif;
+	font-weight: 300;
 	line-height: 20px;
 }
 
 .skills ul{
-	list-style:none;
 	-webkit-padding-start: 0px;
+	list-style-type: circle;
 }
 
 #set1{
 	float:left;
-	margin-right: 15px;
+	margin-right: 25px;
 	width:150px;
+	list-style-type: circle;
 }
 
 #set2{
 	padding-top:32px;
+	list-style-type: circle;
 }
 
 #icon_set{
 	margin-bottom:80px;
-	width:210px;
 	margin:auto;
 	height:40px;
-	
+	width: 355px;
 }
 
 #icon_set ul{
@@ -105,6 +125,11 @@ h2{
 	list-style:none;
 	display:inline-block;
 	padding-right:10px;
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	color:white;
+	letter-spacing: 1px;
 }
 
 
@@ -130,10 +155,16 @@ footer{
 	font-weight: 600;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #689a95;
+	list-style-type: none;
 }
 
 
 .highlight{
 	font-size:18px;
 	line-height: 21px;
+}
+
+
+.text{
+	padding:5px;
 }
