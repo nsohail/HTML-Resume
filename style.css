@@ -65,7 +65,7 @@ h2{
 	margin-right:35px;
 	text-align:right;
 	font-size:14px;
-	width:90px;
+	width:100px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	padding-top: 3px;
@@ -135,7 +135,7 @@ h2{
 
 
 footer{
-	background-image:url(images/footer.png);
+	/*background-image:url(images/footer.png);*/
 	height:50px;
 	margin:auto;
 	clear:both;
@@ -167,4 +167,12 @@ footer{
 
 .text{
 	padding:5px;
+}
+
+.download{
+	float: right;
+	margin: 30px 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
 }
