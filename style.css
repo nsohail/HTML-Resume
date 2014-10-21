@@ -42,15 +42,16 @@ ul{
 
 h2{
 	font-size:18px;
-	width:500px;
+	width:452px;
 	color:#689a95;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	padding:14px;
-	text-align:center;
+	text-align:left;
 	clear:both;
 	margin:auto;
 	letter-spacing: 2px;
+	padding-left: 123px;
 }
 
 .color{
@@ -65,7 +66,7 @@ h2{
 }
 
 .education{
-	height:86px;
+	height: 70px;
 }
 
 .work{
@@ -118,7 +119,7 @@ h2{
 .set{
 	float:left;
 	width:104px;
-	margin-right: 98px;
+	margin-left: 43px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 }
