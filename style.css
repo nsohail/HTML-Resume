@@ -16,6 +16,12 @@ header{
 	height:165px;
 }
 
+
+section {
+	overflow: auto;
+}
+
+
 .section{
 	margin-bottom: 15px;
 }
@@ -61,17 +67,10 @@ h2{
 }
 	
 .resume_info{
-	width:564px;
-	margin:auto;
+	width: 564px;
+	margin: auto;
 }
 
-.education{
-	height: 70px;
-}
-
-.work{
-	height: 600px;
-}
 
 #skills_info{
 	margin: auto;
