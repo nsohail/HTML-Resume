@@ -1,95 +1,83 @@
-img{
-	width: 35px;
-}
-
 body{
 	margin:0;
 	min-width:600px;
+	font-family: 'Josefin Sans', sans-serif;
+	background: url(images/background.png);
+
 }
 
 header{
-	margin:auto;
-	text-align:center;
-	margin-bottom:20px;
-	padding-top: 20px;
-	background-color: #B8CFC7;
-	height:165px;
+	padding: 20px 0px 0px 300px;
+	height: 120px;
+	width: 400px;
+	margin: auto;
 }
+
+header > .position {
+	width: 200px;
+	text-align: left;
+	float: left;
+	color: #989898;
+	line-height: 22px;
+}
+
+header > h1 {
+	width: 300px;
+	text-align: left;
+	font-size: 40px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #474747;
+	font-weight: lighter;
+}
+
+header > .contact {
+	width: 200px;
+	text-align: left;
+	float: left;
+	color: #595959;
+	line-height: 22px;
+}
+
 
 
 section {
 	overflow: auto;
 }
 
-
-.section{
-	margin-bottom: 15px;
-}
-
-h1{
-	font-size:40px;
-	font-family: 'Josefin Sans', sans-serif;
-	-webkit-margin-before:0px;
-	-webkit-margin-after:0px;
-	margin-top:20px;
-	margin-bottom:5px;
-	color:white;
-}
-
-
-ul{
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 25px;
-}
-
-
-h2{
-	font-size:18px;
-	width:452px;
-	color:#689a95;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	padding:14px;
-	text-align:left;
-	clear:both;
-	margin:auto;
+section > h2 {
+	font-size: 18px;
+	width: 452px;
+	color: #ddc544;
+	font-weight: lighter;
+	padding: 14px;
+	text-align: left;
+	clear: both;
+	margin: auto;
 	letter-spacing: 2px;
 	padding-left: 123px;
 }
 
-.color{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	color: #BCCECC;
-}
-	
-.resume_info{
+section > .resume_info {
 	width: 564px;
 	margin: auto;
 }
 
-
-#skills_info{
-	margin: auto;
-	width: 590px;
-}
-	
-.date{
+section > .resume_info > .date {
 	float:left;
-	margin-right:35px;
-	text-align:right;
-	font-size:10px;
-	width:76px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 200;
+	margin-right: 35px;
+	text-align: right;
+	font-size: 11px;
+	width: 76px;
+	font-weight: lighter;
 	line-height: 13px;
 	padding-top: 3px;
+	 color: #989898;
 }
 
-.info{
+section > .resume_info > .info {
 	float:left;
 	width:452px;
 	font-family: 'Raleway', sans-serif;
@@ -100,85 +88,70 @@ h2{
 	margin-bottom: 20px;
 }
 
-.skills{
-	margin:auto;
-	width:554px;
-	font-family: 'Signika', sans-serif;
-	font-weight: 300;
-	line-height: 20px;
-	font-size: 13px;
-	height:150px;
-}
-
-.skills ul{
-	-webkit-padding-start: 20px;
-	list-style-type: circle;
-}
-
-.set{
-	float:left;
-	width:104px;
-	margin-left: 43px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-}
-
-
-
-#icon_set{
-	margin-bottom:80px;
-	margin:auto;
-	height:40px;
-	width: 430px;
-}
-
-#icon_set ul{
-	list-style:none;
-	-webkit-padding-start: 0px;
-	-webkit-margin-after:0px;
-
-}
-
-#icon_set ul li {
-	list-style:none;
-	display:inline-block;
-	padding-right:10px;
-	float: left;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 100;
-	color:white;
-	letter-spacing: 1px;
-}
-
-
-
-footer{
-	/*background-image:url(images/footer.png);*/
-	height:50px;
-	margin:auto;
-	clear:both;
-	width:100%;
-	/*figure out how to get rid of white space around footer*/
-}
-
-
-#banner{
-	margin-bottom:10px;
-}
-
-
-
-
-.highlight{
+section > .resume_info > .info > .highlight {
 	font-size:15px;
 	line-height: 21px;
 	font-weight: 400;
 }
 
 
-.text{
-	padding:5px;
+section > .wrap > .proficiencies {
+	width: 272px;
+	padding-right: 50px;
+	float: left;
+	font-size: 14px;
 }
+
+.wrap .title {
+	padding-bottom: 5px;
+}
+
+.wrap li {
+	line-height: 20px;
+}
+
+section > .wrap > .skills {
+	width: 144px;
+	float: left;
+	font-size: 14px;
+}
+
+.skills > .column {
+	float: left;
+	padding-right: 20px;
+}
+
+section > .wrap {
+	margin: auto;
+	overflow: auto;
+	width: 466px;
+	padding-left: 123px;
+}
+ul{
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 25px;
+}
+
+
+
+
+
+
+
+footer{
+	height:50px;
+	margin:auto;
+	clear:both;
+	width:100%;
+}
+
+
+
+
+
 
 .download{
 	float: right;
