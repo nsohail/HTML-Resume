@@ -3,11 +3,12 @@ body{
 	min-width:600px;
 	font-family: 'Josefin Sans', sans-serif;
 	background: url(images/background.png);
-
+	background-repeat: no-repeat;
+	min-width: 720px;
 }
 
 header{
-	padding: 20px 0px 0px 300px;
+	padding: 20px 0px 0px 55px;
 	height: 120px;
 	width: 400px;
 	margin: auto;
@@ -138,18 +139,13 @@ ul{
 
 
 
-
-
-
 footer{
 	height:50px;
 	margin:auto;
 	clear:both;
 	width:100%;
+	margin-top: 20px;
 }
-
-
-
 
 
 
