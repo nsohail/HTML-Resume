@@ -112,7 +112,7 @@ section > .wrap > .proficiencies {
 }
 
 section > .wrap > .skills {
-	width: 144px;
+	width: 178px;
 	float: left;
 	font-size: 14px;
 }
@@ -125,8 +125,8 @@ section > .wrap > .skills {
 section > .wrap {
 	margin: auto;
 	overflow: auto;
-	width: 466px;
-	padding-left: 123px;
+	width: 500px;
+	padding-left: 155px;
 }
 ul{
 	-webkit-margin-before: 0;
